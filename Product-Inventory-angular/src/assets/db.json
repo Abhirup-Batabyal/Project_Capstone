@@ -26,6 +26,15 @@
       "location": "Kolkata",
       "mobileNumber": "0987654321",
       "id": 3
+    },
+    {
+      "email": "batabyalabhirup10@gmail.com",
+      "password": "12345678",
+      "firstName": "Abhirup",
+      "lastName": "Batabyal",
+      "location": "Kolkata",
+      "mobileNumber": "2272772733",
+      "id": 4
     }
   ],
   "products": [
@@ -34,9 +43,8 @@
       "name": "Laptop",
       "description": "A powerful gaming laptop",
       "manufacturer": "Tech Corp",
-      "manufacturingDate": "2024-01-10",
       "price": 1200,
-      "quantity": 10
+      "quantity": 13
     },
     {
       "id": 102,
