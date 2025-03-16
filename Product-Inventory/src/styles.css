@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Wrapper to ensure proper layout */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Centering all content */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(to right, #007BFF, #00BFFF);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Navbar Links */
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Footer - Now Fixed & Covers Full Width */
+footer {
+    background: linear-gradient(to right, #343A40, #495057);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Ensure footer sticks to bottom on short pages */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Common Button Styles */
+button {
+    padding: 6px 10px;
+    margin: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* View Button (Blue) */
+.view-btn {
+    background: linear-gradient(45deg, #007BFF, #0056b3);
+    color: white;
+}
+
+.view-btn:hover {
+    background: linear-gradient(45deg, #0056b3, #003d80);
+}
+
+/* Edit Button (Orange) */
+.edit-btn {
+    background: linear-gradient(45deg, #FFA500, #FF8C00);
+    color: white;
+}
+
+.edit-btn:hover {
+    background: linear-gradient(45deg, #FF8C00, #FF7000);
+}
+
+/* Delete Button (Red) */
+.delete-btn {
+    background: linear-gradient(45deg, #DC3545, #A71D2A);
+    color: white;
+}
+
+.delete-btn:hover {
+    background: linear-gradient(45deg, #A71D2A, #7A0F1A);
+}
+
+/* Button Group (Aligning buttons closer together) */
+.button-group {
+    display: flex;
+    gap: 5px;
+}
+
+/* Input Fields */
+input {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+}
+
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Forms */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+    width: 60%;
+}
+
+li {
+    background: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #333;
+}
